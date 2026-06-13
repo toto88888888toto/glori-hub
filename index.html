@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glori Creativity Sole Co.,Ltd Website</title>
+
+  <!-- Fonts (EN/TH) + Lao -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+Lao:wght@300;400;600;700&family=Noto+Sans+Thai:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="images/logo.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#home">
+        <img src="images/logo.png" class="brand-logo" alt="Glori logo">
+        <span class="brand-name">Glori Creativity Sole Co.,Ltd</span>
+      </a>
+
+      <nav class="menu" aria-label="Main">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#products" data-i18n="nav.products">Products</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#resources" data-i18n="nav.resources">Resources</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switch -->
+        <div class="lang">
+          <button class="lang-btn is-active" data-lang="en" type="button">🇬🇧</button>
+          <button class="lang-btn" data-lang="lo" type="button">🇱🇦</button>
+          <button class="lang-btn" data-lang="th" type="button">🇹🇭</button>
+        </div>
+
+        <a class="btn btn-primary" href="#contact" data-i18n="nav.book">Book Now</a>
+      </div>
+
+      <button class="burger" id="burger" aria-label="Open menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile" id="mobileMenu">
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#products" data-i18n="nav.products">Products</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#resources" data-i18n="nav.resources">Resources</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+
+      <div class="mobile-lang">
+        <button class="lang-btn is-active" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="lo" type="button">LA</button>
+        <button class="lang-btn" data-lang="th" type="button">TH</button>
+      </div>
+
+      <a class="btn btn-primary w100" href="#contact" data-i18n="nav.book">Book Now</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="hero">
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="images/hero.jpg">
+      <source src="video/hero.mp4" type="video/mp4" />
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="badge">
+        <span class="dot"></span>
+        <span data-i18n="hero.badge">Top-Rated Creative Studio 2026</span>
+      </div>
+
+      <h1 class="headline">
+        <span data-i18n="hero.title1">Discover Your Next</span>
+        <span class="accent" data-i18n="hero.title2">Adventure</span>
+      </h1>
+
+      <p class="subhead" data-i18n="hero.desc">
+        Build modern websites, branding, and digital experiences with Glori.
+      </p>
+
+      <div class="cta">
+        <a class="btn btn-primary" href="#services" data-i18n="hero.cta1">Explore Services →</a>
+        <button class="btn btn-ghost" id="watchBtn" data-i18n="hero.cta2" type="button">▶ Watch Our Story</button>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">50+</div>
+          <div class="stat-label" data-i18n="stats.projects">Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">100+</div>
+          <div class="stat-label" data-i18n="stats.clients">Clients</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">15k+</div>
+          <div class="stat-label" data-i18n="stats.followers">Followers</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">98%</div>
+          <div class="stat-label" data-i18n="stats.satisfaction">Satisfaction</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CLIENTS SLIDER -->
+    <section class="clients-overlay" aria-label="Experience clients">
+      <div class="clients-fade left"></div>
+      <div class="clients-fade right"></div>
+
+      <div class="clients-track">
+        <img src="images/logo1.png" alt="Client 1">
+        <img src="images/logo2.png" alt="Client 2">
+        <img src="images/logo3.png" alt="Client 3">
+        <img src="images/logo4.png" alt="Client 4">
+        <img src="images/logo5.png" alt="Client 5">
+        <img src="images/logo6.png" alt="Client 6">
+        <img src="images/logo7.png" alt="Client 7">
+        <img src="images/logo8.png" alt="Client 8">
+        <img src="images/logo9.png" alt="Client 9">
+        <img src="images/logo10.png" alt="Client 10">
+        <img src="images/logo11.png" alt="Client 11">
+        <img src="images/logo12.png" alt="Client 12">
+        <img src="images/logo13.png" alt="Client 13">
+        <img src="images/logo14.png" alt="Client 14">
+        <img src="images/logo15.png" alt="Client 15">
+        <img src="images/logo16.png" alt="Client 16">
+        <img src="images/logo17.png" alt="Client 17">
+        <img src="images/logo18.png" alt="Client 18">
+
+        <!-- repeat for smooth loop -->
+        <img src="images/logo1.png" alt="">
+        <img src="images/logo2.png" alt="">
+        <img src="images/logo3.png" alt="">
+        <img src="images/logo4.png" alt="">
+        <img src="images/logo5.png" alt="">
+        <img src="images/logo6.png" alt="">
+        <img src="images/logo7.png" alt="">
+        <img src="images/logo8.png" alt="">
+        <img src="images/logo9.png" alt="">
+        <img src="images/logo10.png" alt="">
+        <img src="images/logo11.png" alt="">
+        <img src="images/logo12.png" alt="">
+        <img src="images/logo13.png" alt="">
+        <img src="images/logo14.png" alt="">
+        <img src="images/logo15.png" alt="">
+        <img src="images/logo16.png" alt="">
+        <img src="images/logo17.png" alt="">
+        <img src="images/logo18.png" alt="">
+      </div>
+    </section>
+  </main>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 data-i18n="services.title">Services</h2>
+        <p data-i18n="services.subtitle">Everything you need to launch a premium brand and website.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card reveal">
+          <div class="card-icon">✨</div>
+          <h3 data-i18n="services.s1.title">Website Design</h3>
+          <p data-i18n="services.s1.desc">Modern UI, clean layout, responsive design for all devices.</p>
+          <a href="#contact" class="link" data-i18n="services.link">Get a quote →</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon">⚡</div>
+          <h3 data-i18n="services.s2.title">Landing Pages</h3>
+          <p data-i18n="services.s2.desc">High-converting hero sections with strong call-to-action.</p>
+          <a href="#contact" class="link" data-i18n="services.link2">Start now →</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon">🎨</div>
+          <h3 data-i18n="services.s3.title">Brand & Logo</h3>
+          <p data-i18n="services.s3.desc">Logo, colors, and brand guideline for consistency.</p>
+          <a href="#contact" class="link" data-i18n="services.link3">Ask details →</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon">🧩</div>
+          <h3 data-i18n="services.s4.title">Templates</h3>
+          <p data-i18n="services.s4.desc">Reusable templates you can edit in VS Code anytime.</p>
+          <a href="#contact" class="link" data-i18n="services.link4">See options →</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon">📈</div>
+          <h3 data-i18n="services.s5.title">SEO Basics</h3>
+          <p data-i18n="services.s5.desc">Structure & speed that help your website rank better.</p>
+          <a href="#contact" class="link" data-i18n="services.link5">Improve SEO →</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon">🔧</div>
+          <h3 data-i18n="services.s6.title">Maintenance</h3>
+          <p data-i18n="services.s6.desc">Update content, images, and keep your site fresh.</p>
+          <a href="#contact" class="link" data-i18n="services.link6">Support →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2 data-i18n="products.title">Products</h2>
+        <p data-i18n="products.subtitle">Our items with starting prices in LAK (₭). Final price depends on quantity & options.</p>
+      </div>
+
+      <div class="products-grid">
+
+        <!-- Product 1 -->
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="images/my products/Mug.jpg" alt="Mug">
+            <span class="product-badge" data-i18n="products.badge1">ສິນຄ້າຂາຍດີ</span>
+          </div>
+
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="products.p1.name">Mugs</h3>
+            <p class="product-desc" data-i18n="products.p1.desc">
+              Premium cotton T-shirt for uniforms, events, and brand merchandise.
+            </p>
+
+            <div class="product-tags">
+              <span class="tag" data-i18n="products.tags.cotton">Cotton</span>
+              <span class="tag" data-i18n="products.tags.printing">Printing</span>
+              <span class="tag" data-i18n="products.tags.branding">Branding</span>
+            </div>
+          </div>
+
+          <div class="product-foot">
+            <div class="price-wrap">
+              <div class="price-label" data-i18n="products.starting">ລາຄາເລີ່ມຕົ້ນ</div>
+              <div class="price">₭ 120,000</div>
+            </div>
+
+            <div class="product-actions">
+              <a class="btn btn-ghost btn-sm" href="#contact" data-i18n="products.view">ເບິ່ງສືນຄ້າ</a>
+              <a class="btn btn-primary btn-sm" href="#contact" data-i18n="products.quote">ກົດເພື່ອສັ່ງຊື້</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="images/my products/T-Shirt.jpg" alt="T-Shirt">
+          </div>
+
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="products.p2.name">ເສື້ອ</h3>
+            <p class="product-desc" data-i18n="products.p2.desc">
+              Clean modern business card design + print options with premium paper.
+            </p>
+
+            <div class="product-tags">
+              <span class="tag" data-i18n="products.tags.design">Design</span>
+              <span class="tag" data-i18n="products.tags.print">Print</span>
+            </div>
+          </div>
+
+          <div class="product-foot">
+            <div class="price-wrap">
+              <div class="price-label" data-i18n="products.starting">Starting from</div>
+              <div class="price">₭ 80,000</div>
+            </div>
+
+            <div class="product-actions">
+              <a class="btn btn-ghost btn-sm" href="#contact" data-i18n="products.view">View</a>
+              <a class="btn btn-primary btn-sm" href="#contact" data-i18n="products.quote">Request Quote</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="images/my products/Tumblr.jpg" alt="Logo Design">
+            <span class="product-badge" data-i18n="products.badge2">New</span>
+          </div>
+
+          <div class="product-body">
+            <h3 class="product-title" data-i18n="products.p3.name">Logo Design</h3>
+            <p class="product-desc" data-i18n="products.p3.desc">
+              Professional logo + brand guideline for consistent identity.
+            </p>
+
+            <div class="product-tags">
+              <span class="tag" data-i18n="products.tags.identity">Identity</span>
+              <span class="tag" data-i18n="products.tags.brand">Brand</span>
+              <span class="tag" data-i18n="products.tags.guide">Guide</span>
+            </div>
+          </div>
+
+          <div class="product-foot">
+            <div class="price-wrap">
+              <div class="price-label" data-i18n="products.starting">Starting from</div>
+              <div class="price">₭ 1,500,000</div>
+            </div>
+
+            <div class="product-actions">
+              <a class="btn btn-ghost btn-sm" href="#contact" data-i18n="products.view">View</a>
+              <a class="btn btn-primary btn-sm" href="#contact" data-i18n="products.quote">Request Quote</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section-alt">
+    <div class="container two-col">
+      <div class="reveal">
+        <h2 data-i18n="about.title">About Glori</h2>
+        <p data-i18n="about.desc">
+          Glori is a creative studio focused on modern design, clean code, and fast websites.
+        </p>
+        <ul class="check">
+          <li data-i18n="about.li1">Fast loading, mobile-first layout</li>
+          <li data-i18n="about.li2">Modern hero sections (video / image)</li>
+          <li data-i18n="about.li3">Easy to edit in VS Code</li>
+        </ul>
+        <a class="btn btn-primary" href="#contact" data-i18n="about.cta">Contact Us</a>
+      </div>
+
+      <div class="panel reveal">
+        <h3 data-i18n="about.quick">Quick Info</h3>
+        <div class="info">
+          <div><span data-i18n="about.loc">Location</span><b>Vientiane</b></div>
+          <div><span data-i18n="about.focus">Focus</span><b data-i18n="about.focusVal">Web • Brand • Design</b></div>
+          <div><span data-i18n="about.delivery">Delivery</span><b data-i18n="about.deliveryVal">Fast & Clean</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+  <section id="resources" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 data-i18n="res.title">Resources</h2>
+        <p data-i18n="res.subtitle">Guides and tips for your next website.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card reveal">
+          <h3 data-i18n="res.r1.title">How to publish</h3>
+          <p data-i18n="res.r1.desc">Publish free on GitHub Pages or use a custom domain later.</p>
+          <a class="link" href="#contact" data-i18n="res.link">Ask me →</a>
+        </article>
+        <article class="card reveal">
+          <h3 data-i18n="res.r2.title">Hero video best size</h3>
+          <p data-i18n="res.r2.desc">Keep your MP4 around 3–8MB for fast loading.</p>
+          <a class="link" href="#contact" data-i18n="res.link2">Optimize →</a>
+        </article>
+        <article class="card reveal">
+          <h3 data-i18n="res.r3.title">Design system</h3>
+          <p data-i18n="res.r3.desc">Consistent spacing, typography, and buttons.</p>
+          <a class="link" href="#contact" data-i18n="res.link3">Get template →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container two-col">
+      <div class="reveal">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p data-i18n="contact.desc">Tell us what you want to build. We will reply with a plan and price.</p>
+
+        <form class="form" onsubmit="return false;">
+          <div class="row">
+            <input type="text" data-i18n-ph="contact.name" placeholder="Your name" />
+            <input type="email" data-i18n-ph="contact.email" placeholder="Email or WhatsApp" />
+          </div>
+          <textarea rows="5" data-i18n-ph="contact.msg" placeholder="Describe your project…"></textarea>
+          <button class="btn btn-primary" id="sendBtn" data-i18n="contact.send" type="button">Send Message</button>
+          <p class="hint" id="formHint" data-i18n="contact.hint">This demo button shows an alert. Later we can connect real email.</p>
+        </form>
+      </div>
+
+      <div class="panel reveal">
+        <h3 data-i18n="contact.business">Business</h3>
+        <div class="info">
+          <div><span data-i18n="contact.emailLabel">Email</span><b>customer_sv@glori-cre.org</b></div>
+          <div><span data-i18n="contact.phoneLabel">Phone / WhatsApp</span><b>+856 20 54741592</b></div>
+          <div><span data-i18n="contact.hoursLabel">Hours</span><b data-i18n="contact.hoursVal">Mon–Sat • 9:00–18:00</b></div>
+        </div>
+        <div class="line"></div>
+        <p class="small" data-i18n="contact.tip">Tip: You can edit everything in VS Code and publish anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="brand-row">
+          <span class="brand-mark"></span>
+          <b>Glori</b>
+        </div>
+        <p data-i18n="footer.tag">Modern websites and creative solutions.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#products" data-i18n="nav.products">Products</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#resources" data-i18n="nav.resources">Resources</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <a href="https://gloricreativitysole.myportfolio.com/" target="_blank" rel="noopener">Portfolio</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.facebook.com/profile.php?id=61557055002621" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/103878964/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://wa.me/85620547415922" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        </a>
+      </div>
+
+      <div class="footer-copy">© <span id="year"></span> Glori. <span data-i18n="footer.rights">All rights reserved.</span></div>
+    </div>
+  </footer>
+
+
+  <!-- Floating WhatsApp Button -->
+  <a class="whatsapp-float" href="https://wa.me/85620547415922" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
